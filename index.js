@@ -4,7 +4,7 @@
 
 const _  = require('ramda');
 const fs = require('fs');
-const buffer = require('buffer);
+const buffer = require('buffer');
 
 const validOpts = opts => {
   if(!opts || !opts.commands) return true;
